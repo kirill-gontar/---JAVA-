@@ -7,11 +7,11 @@ public class JavaApplication3 {
         Scanner input = new Scanner(System.in);
         Print.format();
         Print.enterFirstCoef();
-        final int a = input.nextInt();
+        int a = input.nextInt();
         Print.enterSecondCoef();
-        final int b = input.nextInt();
+        int b = input.nextInt();
         Print.enterFreeCoef();
-        final int c = input.nextInt();
+        int c = input.nextInt();
         Print.yourEquation(Convert.delete(a), Convert.toString(b), Convert.toString(c));
         Equation equation = new Equation(a, b, c);
         if(equation.count_result == 0) Print.result();
