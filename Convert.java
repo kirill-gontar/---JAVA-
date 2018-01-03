@@ -26,7 +26,7 @@ public class Convert {
      * @param coef Коеффициент
      * @return Преобразованый коеффициент
      */
-    public final static String delete(final int coef){
+    public final static String delete(int coef){
         String result;
         if(coef == 1) result = "";
         else result = String.valueOf(coef);
