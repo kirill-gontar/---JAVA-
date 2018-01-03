@@ -14,7 +14,7 @@ public class Equation {
       * @param b Второй коеффициент
       * @param c Свободный член
       */
-    Equation(final int a, final int b, final int c) {
+    Equation(int a, int b, int c) {
         final int d = (int) (Math.pow(b, 2) - 4 * a * c);/*Дискрименант*/
         if(d == 0){
             this.result_1 = b * -1 / 2 * a;
