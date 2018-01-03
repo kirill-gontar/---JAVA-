@@ -25,7 +25,7 @@ public class Print {
      * @param result_1 Первый корень
      * @param result_2 Второй корень
      */
-    public final static void result(final int result_1, final int result_2){
+    public final static void result(int result_1, int result_2){
         System.out.println("x1 = " + result_1);
         System.out.println("x2 = " + result_2);
     }
@@ -34,7 +34,7 @@ public class Print {
      * Вывод корня ур-я, если он 1
      * @param result Корень ур-я 
      */
-    public final static void result(final int result){
+    public final static void result(int result){
         System.out.println("x = " + result);
     }
     
@@ -51,7 +51,7 @@ public class Print {
      * @param b Второй коеффициент
      * @param c Свободный член 
      */
-    public final static void yourEquation(final String a, final String b, final String c){
+    public final static void yourEquation(String a, String b, String c){
         System.out.println("\nВаше ур-е: " + a + "x^2" + b + "x" + c + " = 0");
     }
     
